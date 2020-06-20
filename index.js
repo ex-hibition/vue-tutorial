@@ -1,8 +1,8 @@
-let app2 = new Vue({
-  el: '#app-2',
+var app3 = new Vue({
+  el: '#app-3',
   data: {
-    message: 'You loaded this page on ' + new Date().toLocaleString()
+    seen: true
   }
 })
 
-// app2.message = 'some new message ' + new Date().toLocaleString();
+// app3.seen = false;
