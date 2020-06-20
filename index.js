@@ -1,8 +1,12 @@
-var app3 = new Vue({
-  el: '#app-3',
+let app4 = new Vue({
+  el: '#app-4',
   data: {
-    seen: true
+    todos: [
+      { text: 'Learn JavaScript' },
+      { text: 'Learn Vue' },
+      { text: 'Build something awesome' }
+    ]
   }
 })
 
-// app3.seen = false;
+app4.todos.push({'text': 'New Item'})
