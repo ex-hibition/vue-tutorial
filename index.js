@@ -1,8 +1,8 @@
-var app = new Vue({
-    el: '#app',
-    data: {
-      message: 'Hello Vue!'
-    }
-  })
+let app2 = new Vue({
+  el: '#app-2',
+  data: {
+    message: 'You loaded this page on ' + new Date().toLocaleString()
+  }
+})
 
-  // app.message = 'I have changed the data.';
+// app2.message = 'some new message ' + new Date().toLocaleString();
